@@ -1,0 +1,22 @@
+.history {
+  background-color: black;
+  color: white;
+  padding: 8vw;
+}
+
+.history > .card-group > .card-body {
+  width: 400px;
+}
+
+.history > .card-group > .card-body > h4 {
+  font-size: 30px;
+  font-weight: 100;
+}
+
+.history > .card-group {
+    text-align: left;
+}
+
+.history p{
+    color:aqua;
+}

@@ -1,0 +1,46 @@
+.lorem {
+  text-align: left;
+  height: 800px;
+  box-shadow: 10px 10px 30px grey;
+  padding: 30px;
+  width: 560px;
+  background-color: white;
+  border-radius: 10px;
+}
+.lorem > h4 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.loremIP {
+  background-color: #f4f1f1;
+  width: 500px;
+  padding-top: 30px;
+}
+.loremInput {
+  display: flex;
+}
+#loremSelect {
+  color: gray;
+  margin-left: 20px;
+  width: 460px;
+}
+.loremInput > input {
+  width: 300px;
+  margin: 20px;
+}
+
+.lorem > button {
+  margin-top: 450px;
+  margin-left: 380px;
+  width: 120px;
+}
+
+@media screen and (max-width: 1000px) {
+  .lorem {
+    height: 400px;
+  }
+  .lorem > button {
+    margin-top: 70px;
+  }
+}

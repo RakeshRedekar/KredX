@@ -1,0 +1,30 @@
+.hamberger {
+  margin-right: 2vw;
+}
+.hambergerDropdown {
+  box-shadow: 10px 10px 30px grey;
+  padding: 10px;
+  text-align: center;
+  width: 180px;
+  position: absolute;
+  top: 70px;
+  right: 50px;
+  z-index: 5545;
+  background-color: white;
+}
+.hambergerDropdown ul {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+  padding: 0;
+}
+
+.hambergerDropdown li {
+  padding: 5px;
+  border-bottom: 2px solid gray;
+}
+
+.hambergerDropdown li:hover {
+  background-color: aquamarine;
+}

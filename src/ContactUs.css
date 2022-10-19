@@ -1,0 +1,25 @@
+.contactUs {
+  width: 100vw;
+  padding: 100px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.contactUs .contactDiv {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.contactCard {
+  width: 200px;
+}
+.contactCard > p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.contactCard > h6{
+    color: gray;
+}

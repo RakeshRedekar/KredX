@@ -1,0 +1,39 @@
+.NavMainDiv {
+  box-shadow: 0px 7px 10px #888888;
+  position: fixed;
+  top: 0px;
+  width: 100vw;
+  background-color: white;
+  z-index: 561611;
+  box-sizing: border-box;
+}
+.NavMainDiv > nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 4vw;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navRight > .navbar-nav {
+  margin-right: 4vw;
+  width: 600px;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.navHamberger {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .navHamberger {
+    display: block;
+  }
+  .navRight {
+    display: none;
+  }
+}

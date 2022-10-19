@@ -1,0 +1,14 @@
+.mainBodyImage {
+  width: 100vw;
+}
+.mainBodyImage > img {
+  width: 100vw;
+}
+.formDiv {
+  position: absolute;
+  top: 10vw;
+  right: 5vw;
+}
+.compoDiv > img {
+  width: 100vw;
+}

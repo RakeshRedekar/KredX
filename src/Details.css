@@ -1,0 +1,39 @@
+.details {
+  padding: 8vw;
+}
+.detailsH1 {
+  width: 400px;
+  text-align: left;
+}
+
+.detailsH1 > span {
+  color: aqua;
+}
+.card-group {
+  margin-top: 80px;
+  row-gap: 80px;
+  column-gap: 12vw;
+}
+.card-img-top {
+  width: 80px;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  width: 450px;
+}
+
+.detailsCard {
+  width: 320px;
+  text-align: left;
+}
+
+.card-body > .card-title {
+  margin-bottom: 10px;
+}
+
+.card-body > p {
+  font-size: 20px;
+  color: gray;
+}
+
